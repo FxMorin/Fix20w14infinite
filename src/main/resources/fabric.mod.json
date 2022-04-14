@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "fix20w14infinite",
+  "version": "${version}",
+  "name": "Fix20w14infinite",
+  "description": "Fix the crashes in 20w14infinite",
+  "authors": [
+    "FX - PR0CESS"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fix20w14infinite/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ca.fxco.fix20w14infinite.Fix20w14infinite"
+    ]
+  },
+  "mixins": [
+    "fix20w14infinite.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "minecraft": "1.16-alpha.20.13.inf"
+  }
+}

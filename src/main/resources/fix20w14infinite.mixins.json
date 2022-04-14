@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ca.fxco.fix20w14infinite.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ChanceRangeDecorator_posBoundsMixin",
+    "DiskReplaceFeature_posBoundsMixin",
+    "TwitstingVinesFeature_expensiveMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
