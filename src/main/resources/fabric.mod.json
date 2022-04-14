@@ -21,6 +21,6 @@
   ],
   "depends": {
     "fabricloader": ">=0.12.2",
-    "minecraft": "1.16-alpha.20.13.inf"
+    "minecraft": "*"
   }
 }
