@@ -6,7 +6,8 @@
   "mixins": [
     "ChanceRangeDecorator_posBoundsMixin",
     "DiskReplaceFeature_posBoundsMixin",
-    "TwitstingVinesFeature_expensiveMixin"
+    "TwitstingVinesFeature_expensiveMixin",
+    "WarpCommand_opMixin"
   ],
   "injectors": {
     "defaultRequire": 1
